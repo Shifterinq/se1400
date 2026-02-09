@@ -10,20 +10,21 @@ header{
     color:#FFFFFF;
     font-family: Georgia, sans-serif;
 }
-header h1{
-    line-height: 140%; 
-    padding:0.5rem;
-    background-image: url(utahtechlogo.svg);
-    background-position:right;
-    background-repeat: no-repeat;
-    padding-left: 1em;
-    margin-bottom: 0;
+header h1 {
+line-height: 140%;
+background-image: url(utahtechlogo.svg);
+background-repeat: no-repeat;
+background-position: right;
+background-origin: content-box;
+padding: .5rem;
+margin-bottom: 0;
 }
 nav{
-    font-weight:bold;
-    background-color:#F3F3F3;
-    padding: 2rem;
+font-weight:bold;
+background-color:#F3F3F3;
+padding: .5rem .5rem .5rem 2rem;
 }
+
 nav a{
     text-decoration:none;
 }
