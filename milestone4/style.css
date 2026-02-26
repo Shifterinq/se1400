@@ -1,0 +1,36 @@
+#wrapper{
+    display:grid;
+    grid-auto-rows: 0px, auto;
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+    background-color:grey
+}
+header{
+    background-color:green;
+    height:80px;
+    grid-row: 0 / 3;
+    grid-column: 1 / -1;
+}
+nav{
+    background-color: aquamarine;
+    height:200px;
+    grid-row: 4 / 7;
+    grid-column: 2 / -2;
+}
+#hero{
+    background-color: blue;
+    height:400px;
+    grid-row: 8 / 9;
+    grid-column: 2 / -2;
+}
+main{
+    background-color: blueviolet;
+    height:600px;
+    grid-row: 10 / 11;
+    grid-column: 2 / -2;
+}
+footer{
+    background-color: brown;
+    height:75px;
+    grid-row: 12 / 13;
+    grid-column: 2 / -2;
+}
