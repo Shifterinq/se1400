@@ -1,14 +1,20 @@
+*{
+    background-color:#999999;
+}
+
 #wrapper{
     display:grid;
     grid-auto-rows: 0px, auto;
     grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
-    background-color:grey
+    background-color:#999999;
 }
 header{
-    background-color:green;
+    background-color:#4d4d4d;
     height:80px;
     grid-row: 0 / 3;
     grid-column: 1 / -1;
+    position:sticky;
+    top:0px;
 }
 nav{
     background-color: aquamarine;
@@ -17,19 +23,20 @@ nav{
     grid-column: 2 / -2;
 }
 #hero{
-    background-color: blue;
+    background-image: url("indexhero.jpg");
+    background-size:cover;
     height:400px;
     grid-row: 8 / 9;
     grid-column: 2 / -2;
 }
 main{
-    background-color: blueviolet;
+    background-color: #f2f2f2;
     height:600px;
     grid-row: 10 / 11;
     grid-column: 2 / -2;
 }
 footer{
-    background-color: brown;
+    background-color: #4c4c4c;
     height:75px;
     grid-row: 12 / 13;
     grid-column: 2 / -2;
