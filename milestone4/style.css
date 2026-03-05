@@ -1,4 +1,4 @@
-*{
+body{
     background-color:#999999;
 }
 
@@ -15,6 +15,22 @@ header{
     grid-column: 1 / -1;
     position:sticky;
     top:0px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+}
+header p{
+    background-color:#0eb0bb;
+    color:#e90c11;
+    font-size:40px;
+    margin:0px 65px 0px 65px;
+    align-items:center;
+    height:50px;
+    width:150px;
+    text-align:center;
 }
 nav{
     background-color: aquamarine;
@@ -28,12 +44,26 @@ nav{
     height:400px;
     grid-row: 8 / 9;
     grid-column: 2 / -2;
+    display:flex;
+    align-items: center;
+}
+#herothing{
+    background-color:rgba(211, 211, 211, .50);
+    display:flex;
+    justify-content: center;
+    font-size:50px;
+    text-align: center;
+    width: 600px;
+    margin:0 auto;
+    height:200px;
+    align-items: center;
 }
 main{
     background-color: #f2f2f2;
-    height:600px;
+    height:900px;
     grid-row: 10 / 11;
     grid-column: 2 / -2;
+    display:flex;
 }
 footer{
     background-color: #4c4c4c;
