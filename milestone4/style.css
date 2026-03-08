@@ -67,20 +67,43 @@ main{
     height:900px;
     grid-row: 10 / 11;
     grid-column: 2 / -2;
-    display:flex;
+    display:flex;    
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 main div{
     border-color: black;
     border-style: solid;
     border-width: 5px;
-    max-height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    height: 100px;
+    width: 100px;
+    padding:150px;
+    font-size: 30px;
+}
+main div img{
+    position: relative;
+    right: 150px;
+    bottom: 150px;
+}
+main div a{
+    position: relative;
+    right: 150px;
+    bottom: 150px;
 }
 footer{
     background-color: #4c4c4c;
     height:75px;
     grid-row: 12 / 13;
     grid-column: 2 / -2;
+    color:lightgrey;
+}
+footer a:link, footer a:visited{
+    color:lightgrey;
+}
+main a:link{
+    color:#aa1315;
+}
+main a:visited{
+    color:#aa1315;
 }
