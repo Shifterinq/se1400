@@ -30,17 +30,17 @@
     <h3>Request Alumni Newsletter</h3>
     <p>Required information is marked with an asterisk (*).</p>
     <form method="post" action="https://wfc.flitchbeta.com/se1400/index.php">
-      <label>*First Name</label>
+      <label for="myFName">*First Name</label>
       <input type="text" name="myFName" id="myFName" required>
-      <label>*Last Name</label>
+      <label for="myLName">*Last Name</label>
       <input type="text" name="myLName" id="myLName" required>
-      <label>*My Email</label>
+      <label for="myEmail">*My Email</label>
       <input type="email" name="myEmail" id="myEmail" required>
-      <label>My Phone</label>
+      <label for="myPhone">My Phone</label>
       <input type="tell" name="myPhone" id="myPhone">
-      <label>Graduation Date</label>
-      <input type="date">
-      <label>*Comments</label>
+      <label for="date">Graduation Date</label>
+      <input type="date" name="date" id="date">
+      <label for="myComments">*Comments</label>
       <textarea cols="20" rows="2" name="myComments" id="myComments" required> </textarea>
       <input type="submit" id="mySubmit">
     </form>
