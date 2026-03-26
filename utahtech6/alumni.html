@@ -24,21 +24,24 @@
       <li><a href="alumni.html">Alumni</a></li>
     </ul>
   </nav>
-  <div id="alumni"></div>
+  <div id="alumnihero"></div>
   <main>
     <h2>Join Alumni Mailing List</h2>
     <h3>Request Alumni Newsletter</h3>
-    <form method="post" action="https://kearl.net/se1400/mail.phpLinks to an external site.">
-      <label>First Name</label>
-      <input type="text" name="myFName" id="myFName">
-      <label>Last Name</label>
-      <input type="text" name="myLName" id="myLName">
-      <label>My Email</label>
-      <input type="email" name="myEmail" id="myEmail">
+    <p>Required information is marked with an asterisk (*).</p>
+    <form method="post" action="https://wfc.flitchbeta.com/se1400/index.php">
+      <label>*First Name</label>
+      <input type="text" name="myFName" id="myFName" required>
+      <label>*Last Name</label>
+      <input type="text" name="myLName" id="myLName" required>
+      <label>*My Email</label>
+      <input type="email" name="myEmail" id="myEmail" required>
       <label>My Phone</label>
       <input type="tell" name="myPhone" id="myPhone">
-      <label> Comments</label>
-      <textarea cols="20" rows="2" name="myComments" id="myComments"> </textarea>
+      <label>Graduation Date</label>
+      <input type="date">
+      <label>*Comments</label>
+      <textarea cols="20" rows="2" name="myComments" id="myComments" required> </textarea>
       <input type="submit" id="mySubmit">
     </form>
   </main>
