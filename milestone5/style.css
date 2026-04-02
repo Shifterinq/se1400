@@ -20,6 +20,7 @@ header{
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
+    z-index: 2;
 }
 header p{
     background-color:#0eb0bb;
@@ -106,4 +107,12 @@ main a:link{
 }
 main a:visited{
     color:#aa1315;
+}
+@media only screen and (max-width:930px){
+    header img{
+        display:none;
+    }
+}
+@media only screen and (max-width:768px){
+    
 }
