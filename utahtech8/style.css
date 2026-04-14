@@ -56,6 +56,7 @@ nav a{
     padding: 1rem 0rem;
     display:block;
     text-align: center;
+    transition: background-color 0.5s ease-out;
 }
 nav a:hover{
     background-color: #BA1C21;
@@ -184,6 +185,10 @@ td{
 tr:nth-of-type(even){
     background-color: #F3F3F3;
 }
+video{
+    float: right;
+    margin-left: 2em;
+}
 @media only screen and (max-width: 1100px){
     #wrapper{
          grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
@@ -208,6 +213,12 @@ tr:nth-of-type(even){
         width: 100%;
         height: auto;
         padding-left: 0px;
+    }
+    video{
+        float:none;
+        margin-left:0em;
+        width:100%;
+        height:auto;
     }
 }
 @media only screen and (max-width: 600px){
