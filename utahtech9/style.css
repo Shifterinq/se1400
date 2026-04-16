@@ -120,7 +120,7 @@ footer{
     height: 300px;
     background-position: center;
 }
-#homehero, #studenthero, #facultyhero, #alumnihero{
+#homehero, #studenthero, #facultyhero, #alumnihero, #shophero{
     grid-row: 3 / 4;
     grid-column: 1 / 9;
 }
