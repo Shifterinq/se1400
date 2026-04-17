@@ -1,15 +1,15 @@
 body{
-    background-color:#999999;
+    background-color:#6c6d6d;
 }
 
 #wrapper{
     display:grid;
     grid-auto-rows: 0px, auto;
     grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
-    background-color:#999999;
+    background-color:#6c6d6d;
 }
 header{
-    background-color:#4d4d4d;
+    background-color:rgb(18, 18, 18);
     height:80px;
     grid-row: 0 / 3;
     grid-column: 1 / -1;
@@ -23,8 +23,6 @@ header{
     z-index: 2;
 }
 header p{
-    background-color:#0eb0bb;
-    color:#e90c11;
     font-size:40px;
     margin:0px 65px 0px 65px;
     align-items:center;
@@ -34,7 +32,16 @@ header p{
 }
 header p a{
     text-decoration: none;
-    color:black;
+    color:rgba(0, 0, 0, 0.8);
+}
+#redbutton{
+    background-color:#9a3d40;
+}
+#greenbutton{
+    background-color:#3b9b46;
+}
+#bluebutton{
+    background-color:#3c449b;
 }
 header img{
     height: 100%;
@@ -93,14 +100,14 @@ main div img{
     right: 150px;
     bottom: 150px;
 }
-main div a{
+main div p{
     position: relative;
     right: 150px;
     bottom: 150px;
     padding: auto;
 }
 footer{
-    background-color: #4c4c4c;
+    background-color: rgb(18, 18, 18);
     height:75px;
     grid-row: 12 / 13;
     grid-column: 2 / -2;
@@ -108,12 +115,6 @@ footer{
 }
 footer a:link, footer a:visited{
     color:lightgrey;
-}
-main a:link{
-    color:#aa1315;
-}
-main a:visited{
-    color:#aa1315;
 }
 @media only screen and (max-width:930px){
     header img{
