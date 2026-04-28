@@ -43,6 +43,8 @@ header p a{
 }
 #greenbutton{
     background-color:#3b9b46;
+    padding-left: 10px;
+    padding-right: 20px;
 }
 #bluebutton{
     background-color:#3c449b;
@@ -77,6 +79,11 @@ nav{
     height:200px;
     align-items: center;
     border-radius: 15px;
+    flex-direction: column;
+    line-height: 1px;
+}
+#heading, #subheading{
+    font-size: 40px;
 }
 main{
     background-color: #f2f2f2;
